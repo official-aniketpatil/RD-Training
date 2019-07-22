@@ -24,6 +24,7 @@ public class CollatzSequence {
 	}
 	public static void main(String[] args) {
 		int initialSequenceNumber=Integer.parseInt(args[0]);
+		
 		printSequence(initialSequenceNumber);
 	}
 
