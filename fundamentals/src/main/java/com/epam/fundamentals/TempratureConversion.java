@@ -1,6 +1,11 @@
 package com.epam.fundamentals;
 
-
+class ArgumentMismatchException extends Exception {
+	
+	ArgumentMismatchException(String message){
+		super(message);
+	}
+}
 public class TempratureConversion {
 
 	static float celsiusToFahrenheit(float celsius) {
@@ -11,7 +16,11 @@ public class TempratureConversion {
 		return (fahrenheit - 32) * (5 / 9);		
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ArgumentMismatchException {
+		if(args.length != 2) {
+			throw new ArgumentMismatchException("There must be exact Two arguments");
+		}
+		
 		int choice=Integer.parseInt(args[0]);
 		float value=Float.parseFloat(args[1]);
 		
