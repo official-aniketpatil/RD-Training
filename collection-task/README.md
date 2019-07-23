@@ -1,6 +1,7 @@
 **Task 1:** Program to convert from inch,feet and meter by following solid principles. Take input parameters from console.
 
 **Task 2:** Write a function which evaluates the sum and avg of an array. Take inputs from console.
+
 **Task 3:** Write a function which joins the elements of an array into one string. 
         The separator character must be optional, e.g.
         
