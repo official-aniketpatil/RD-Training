@@ -1,23 +1,31 @@
 package com.epam.fundamentals;
 
 
+class FizzBuzzHelper {
+	static void runApplication() {
+		FizzBuzz fizBuzz = new FizzBuzz();
+		for(int i = 1; i <= 100; i++) {
+		     fizBuzz.printFizzBuzz(i);  	
+		}	
+	}
+}
 public class FizzBuzz {
     
-	static boolean isDividedByThree(int num) {
+	public boolean isDividedByThree(int num) {
 		
 		if(num % 3 == 0) {
 			return true;
 		}
 		return false;
 	}
-	static boolean isDividedByFive(int num) {
+	public boolean isDividedByFive(int num) {
 		
 		if(num % 5 == 0 ) {
 			return true;
 		}
 		return false;
 	}
-	static void printFizzBuzz(int num) {
+	public  void printFizzBuzz(int num) {
 		
 		if(isDividedByThree(num) && isDividedByFive(num)) {
 			System.out.print("FizzBuzz ");
@@ -30,9 +38,6 @@ public class FizzBuzz {
 		}
 	}
 	public static void main(String[] args) {
-		
-		for(int i = 1; i <= 100; i++) {
-		     printFizzBuzz(i);  	
-		}	
+		FizzBuzzHelper.runApplication();
 	}
 }

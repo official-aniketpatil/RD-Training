@@ -2,9 +2,40 @@ package com.epam.fundamentals;
 
 import java.util.Scanner;
 
+class Input {
+	private Scanner sc;
+	public Input(){
+		sc=new Scanner(System.in);
+	}
+	
+	public String getString() {
+		return sc.next().trim();
+	}
+	
+	public int getInteger() {
+		return sc.nextInt();
+	}
+}
+class PerfectNumberHelper {
+	public static void runApplication() {
+		
+		System.out.println("Enter a number");
+		int num = new Input().getInteger();
+		PerfectNumber perfectNumber = new PerfectNumber(num);
+        if(perfectNumber.isPerfectNumber(num)) {
+        	System.out.println(num +" is a Perfect Number");
+        } else {
+        	System.out.println(num + " is not a Perfect Number");
+        }
+	}
+}
 public class PerfectNumber {
-
-	static int getFactorSum(int num) {
+	 private int num;
+	 
+	 public PerfectNumber(int num){
+		 this.num = num;
+	 }
+	 private int getFactorSum(int num) {
 		int sum=0;
 		for(int i=1; i <= num/2; i++) {
 			if(num % i == 0) {
@@ -13,7 +44,7 @@ public class PerfectNumber {
 		}
 		return sum;
 	}
-	static boolean isPerfectNumber(int num) {
+	public boolean isPerfectNumber(int num) {
 		
 		if(getFactorSum(num) == num) {
 			return true;
@@ -22,15 +53,7 @@ public class PerfectNumber {
 	}
 	
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		int num = sc.nextInt();
-		sc.close();
-		
-        if(isPerfectNumber(num)) {
-        	System.out.println(num +" is a Perfect Number");
-        } else {
-        	System.out.println(num + " is not a Perfect Number");
-        }
+		PerfectNumberHelper.runApplication();
 	}
 
 }
