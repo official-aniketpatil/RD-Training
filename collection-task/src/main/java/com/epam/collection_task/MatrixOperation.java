@@ -56,7 +56,7 @@ public class MatrixOperation {
 		}
 		System.out.print(" "+calculateDiagonalSum());
     }
-    public static void main(String[] args) throws IllegalMatrixException {
+    public static void main(String[] args) {
 		MatrixOperationHelper matrixOperationHelper = new MatrixOperationHelper();
 		matrixOperationHelper.runApplication();
 	}

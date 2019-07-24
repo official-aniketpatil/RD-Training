@@ -1,7 +1,5 @@
 package com.epam.model;
 
-import com.epam.exceptions.IllegalMatrixException;
-
 public class Matrix {
  private int[][] matrix;
  private int rows;

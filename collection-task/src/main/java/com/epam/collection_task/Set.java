@@ -14,11 +14,11 @@ class SetHelper {
 		input = new Input();
 	}
 	
-    private void addElement(Integer value) throws DuplicateValueException {
+    private void addElement(Integer value) {
 		set.add(value);
 	}
     
-    private void removeElement(Integer value) throws ElementNotFoundException {
+    private void removeElement(Integer value) {
     	set.remove(value);
     }
     private void printElement() {
