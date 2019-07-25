@@ -1,0 +1,4 @@
+this is a test
+file to check merging
+this is end line of file two.
+this is a testfile to check mergingthis is end line of file one.
