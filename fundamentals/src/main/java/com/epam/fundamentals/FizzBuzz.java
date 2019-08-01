@@ -2,7 +2,12 @@ package com.epam.fundamentals;
 
 
 class FizzBuzzHelper {
-	static void runApplication() {
+	
+	private FizzBuzzHelper() {
+	
+	}
+	
+	public static void runApplication() {
 		FizzBuzz fizBuzz = new FizzBuzz();
 		for(int i = 1; i <= 100; i++) {
 		     fizBuzz.printFizzBuzz(i);  	
@@ -13,17 +18,14 @@ public class FizzBuzz {
     
 	public boolean isDividedByThree(int num) {
 		
-		if(num % 3 == 0) {
-			return true;
-		}
-		return false;
+		return (num % 3) == 0 ? true : false;
+	
 	}
+	
 	public boolean isDividedByFive(int num) {
 		
-		if(num % 5 == 0 ) {
-			return true;
-		}
-		return false;
+		return (num % 5) == 0 ? true : false;
+		
 	}
 	public  void printFizzBuzz(int num) {
 		

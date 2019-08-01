@@ -29,9 +29,8 @@ public class FileFirstNLinePrint {
 	}
     public void printFirstNLines(){
 		Input input = new Input();
-		BufferedReader br = input.getBufferedReader(filePath);
 		String line="";
-		try {
+		try (BufferedReader br = input.getBufferedReader(filePath);){
 			while(lineCountToPrint != 0) {
 				if((line =br.readLine()) == null) {
 					throw new LineCountOutOfBoundException("number of lines to print exceeds max lines");
@@ -42,12 +41,6 @@ public class FileFirstNLinePrint {
 			
 		}catch (IOException e) {
 			System.out.println(e.getMessage());
-		}finally {
-			try {
-				br.close();
-			} catch (IOException e) {
-				System.out.println(e.getMessage());
-			}
 		}
 	}
     

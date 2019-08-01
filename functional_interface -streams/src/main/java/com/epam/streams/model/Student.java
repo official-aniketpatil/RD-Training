@@ -45,7 +45,7 @@ public class Student implements Comparable<Student> {
 
 	@Override
 	public boolean equals(Object obj) {
-		if(obj == null || !(obj instanceof Student)) {
+		if(!(obj instanceof Student)) {
 			return false;
 		} else if (this.getId() == ((Student) obj).getId()) {
 			return true;
@@ -53,6 +53,11 @@ public class Student implements Comparable<Student> {
 		return false;
 	}
 
+	@Override
+	public int hashCode() {
+		return (int) this.id;
+	}
+	
 	@Override
 	public String toString() {
 		return "Student [name=" + name + ", skill=" + skill + ", mark=" + mark + "]";

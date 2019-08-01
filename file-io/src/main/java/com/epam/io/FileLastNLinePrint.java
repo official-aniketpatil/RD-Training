@@ -8,6 +8,11 @@ import java.nio.file.Paths;
 import com.epam.io.exception.LineCountOutOfBoundException;
 
 class FileLastNLinePrintHelper {
+	
+	private FileLastNLinePrintHelper() {
+		throw new IllegalStateException("utility class");
+	}
+	
 	public static void runApplication(String[] args) {
 		int lineCountToPrint = 5;
 		String filePath = args[0].trim();
@@ -27,25 +32,31 @@ class FileLastNLinePrintHelper {
 public class FileLastNLinePrint {
     private Path filePath;
 	private int lineCountToPrint;
+	private BufferedReader br;
+	private Input input;
 	
 	public FileLastNLinePrint(Path filePath,int lineCountToPrint) {
 		this.filePath = filePath;
 		this.lineCountToPrint = lineCountToPrint;
+		this.input = new Input();
+		this.br = input.getBufferedReader(filePath);
 	}
-	private int getFileLength(BufferedReader br) {
+	private int getFileLength() {
 		int length = 0;
-		String line = "";
+		
 		try {
-		while((line = br.readLine()) != null) {
-			length++;
-		}
+			
+			while(br.readLine() != null) {
+				length++;
+			}
+			
 		} catch(IOException e) {
 			System.out.println(e.getMessage());
 		}
 		return length;
 	}
-	private int getStartIndex(BufferedReader br) {
-		int fileLength = getFileLength(br);
+	private int getStartIndex() {
+		int fileLength = getFileLength();
 		int startIndex= fileLength - lineCountToPrint + 1;
 		if(startIndex <= 0) {
 			throw new LineCountOutOfBoundException("number of lines to print exceeds max lines");
@@ -53,12 +64,11 @@ public class FileLastNLinePrint {
 		return startIndex;
 	}
     public void printLastNLines(){
-		Input input = new Input();
-		BufferedReader br = input.getBufferedReader(filePath);
-		int startIndex = getStartIndex(br);
+		int startIndex = getStartIndex();
 		int currentLineNumber = 1;
-		br = input.getBufferedReader(filePath);
 		String line="";
+		br = input.getBufferedReader(filePath);
+		
 		try {
 			while(lineCountToPrint != 0) {
 				line = br.readLine();
@@ -69,16 +79,20 @@ public class FileLastNLinePrint {
 				currentLineNumber++;
 			}
 			
-		}catch (IOException e) {
+		} catch (IOException e) {
 			System.out.println(e.getMessage());
-		}finally {
-			try {
-				br.close();
-			} catch (IOException e) {
-				System.out.println(e.getMessage());
-			}
+		} finally {
+			closeResources(br);
 		}
 	}
+    
+    public void closeResources(BufferedReader br) {
+    	try {
+			br.close();
+		} catch (IOException e) {
+			System.out.println(e.getMessage());
+		}
+    }
     
 	public static void main(String[] args) {
 		FileLastNLinePrintHelper.runApplication(args);

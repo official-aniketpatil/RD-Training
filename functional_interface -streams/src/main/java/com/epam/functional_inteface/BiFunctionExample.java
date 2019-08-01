@@ -10,9 +10,11 @@ public class BiFunctionExample {
 		System.out.println("output after composite BiFunction");
 		System.out.println(add.apply(2, 3));
 	}
-	public void PerformOperation(BiFunction<Integer, Integer, ?> biFunction) {
+	
+	public void performOperation(BiFunction<Integer, Integer, ?> biFunction) {
 		System.out.println(biFunction.apply(2, 3));
 	}
+	
 	public void helper() {
 		BiFunction<Integer, Integer, Integer> add = (a, b) -> { 
 		  return a + b; 
@@ -21,11 +23,12 @@ public class BiFunctionExample {
 			  return a * b; 
 			};
 		System.out.println("addition");
-		PerformOperation(add);
+		performOperation(add);
 		System.out.println("multiplication");
-		PerformOperation(multiply);
+		performOperation(multiply);
 		performCompositeOperation(add);
 	}
+	
 	public static void main(String[] args) {
 		
 		BiFunctionExample biFunctionExample = new BiFunctionExample();

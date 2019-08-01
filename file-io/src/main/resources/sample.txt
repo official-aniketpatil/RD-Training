@@ -1,3 +1,4 @@
-hello this is aniket
-this is testing
-aniket works in epam.
+hii this is aniket
+writing the file
+sample.txt
+aniket works in epam systems

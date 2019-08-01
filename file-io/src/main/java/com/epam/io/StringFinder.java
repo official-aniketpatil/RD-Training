@@ -6,6 +6,11 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 class StringFinderHelper {
+	
+	private StringFinderHelper() {
+		
+	}
+	
 	public static void runApplication(String[] args) {
 		Validator.validateArguments(args);
 		Path filePath = Paths.get(args[0].trim());
@@ -23,11 +28,9 @@ public class StringFinder {
     	this.keyword = keyword;
     }
 	public String matchKeywordAndPrintLine() {
-		BufferedReader bufferedReader = null;
 		Input input = new Input();
 		String line = null;
-		try {
-			bufferedReader = input.getBufferedReader(filePath);
+		try (BufferedReader bufferedReader = input.getBufferedReader(filePath);) {
 			while((line = bufferedReader.readLine()) != null) {
 				if(line.contains(keyword)) {
 					System.out.println(line);

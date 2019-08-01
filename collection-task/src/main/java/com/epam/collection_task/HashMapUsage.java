@@ -33,7 +33,9 @@ class CharCount {
 		}
 	}
 	public void printCharCount(){
+		
 		calculateCharacterCount();
+		
 		for(Map.Entry<Character, Integer> entry : charWithCount.entrySet()) {
 			System.out.println(entry);
 		}

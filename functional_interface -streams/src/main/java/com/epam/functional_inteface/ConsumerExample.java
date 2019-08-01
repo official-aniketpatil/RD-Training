@@ -5,10 +5,6 @@ import java.util.function.Consumer;
 public class ConsumerExample {
 	private Integer[] elements = {1,2,3,4,5};
 	
-	public void compositeConsumer() {
-		
-	}
-	
 	public void printArray(Consumer<Integer[]> print) {
 		print.accept(elements);
 	}
@@ -18,18 +14,19 @@ public class ConsumerExample {
 	}
 	
 	private void helper() {
-		Consumer<Integer[]> print = elements -> {
-			for(int element : elements) {
-				System.out.println(element);
+		Consumer<Integer[]> print = items -> {
+			for(int item : items) {
+				System.out.println(item);
 			}
 		};
 		printArray(print);
 		
-		print =  print.andThen(elements -> {
-			for(int element : elements) {
-				System.out.println(element * element);
+		print =  print.andThen(items -> {
+			for(int item :	items) {
+				System.out.println(item * item);
 			}
 		});
+		
 		System.out.println("elements followed by square");
 		printElementWithSquare(print);
 		
