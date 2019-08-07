@@ -101,9 +101,31 @@ public class EmployeeDaoImplementation implements EmployeeDao {
 		}
 		return employees;
 	}
-
-	public Employee getById(int id) {
+	
+	private Employee employeeBuilder(int id, ResultSet rs) throws SQLException {
 		Employee emp = new Employee();
+		String name = rs.getString("emp_name");
+		int level = rs.getInt("level");
+		String department = rs.getString("dept_name");
+		String email = rs.getString("email");
+		String locality = rs.getString("locality");
+		String city = rs.getString("city");
+		String state = rs.getString("state");
+		String landmark = rs.getString("landmark");
+		int zip = rs.getInt("zip");
+		Address address = new Address(locality, city, state, landmark, zip);
+		emp.setAddress(address);
+		emp.setId(id);
+		emp.setName(name);
+		emp.setDepartment(department);
+		emp.setEmail(email);
+		emp.setLevel(level);
+		
+		return emp;
+	}
+	
+	public Employee getById(int id) {
+		Employee emp = null;
 		
 		String getEmployeeQuery = "SELECT employee.emp_id, employee.emp_name,"
 				+ "employee.email,employee.email,employee.level,"
@@ -115,22 +137,7 @@ public class EmployeeDaoImplementation implements EmployeeDao {
 		try (Statement stmt = connection.createStatement();
 				ResultSet rs = stmt.executeQuery(getEmployeeQuery);) {
 			while(rs.next()) {
-			String name = rs.getString("emp_name");
-			int level = rs.getInt("level");
-			String department = rs.getString("dept_name");
-			String email = rs.getString("email");
-			String locality = rs.getString("locality");
-			String city = rs.getString("city");
-			String state = rs.getString("state");
-			String landmark = rs.getString("landmark");
-			int zip = rs.getInt("zip");
-			Address address = new Address(locality, city, state, landmark, zip);
-			emp.setAddress(address);
-			emp.setId(id);
-			emp.setName(name);
-			emp.setDepartment(department);
-			emp.setEmail(email);
-			emp.setLevel(level);
+				emp = employeeBuilder(id, rs);
 			}
 
 		} catch (SQLException sqle) {

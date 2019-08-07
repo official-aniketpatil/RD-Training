@@ -1,5 +1,6 @@
 package com.epam.jdbc.launcher;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -10,6 +11,7 @@ import com.epam.jdbc.dao.EmployeeDao;
 import com.epam.jdbc.dao.impl.EmployeeDaoImplementation;
 import com.epam.jdbc.model.Address;
 import com.epam.jdbc.model.Employee;
+import com.mysql.cj.x.protobuf.MysqlxCrud.Collection;
 
 public class EmployeeService {
 
@@ -80,6 +82,11 @@ public class EmployeeService {
 	
 	public void showEmployeeDetails() {
 		List<Employee> employees = employeeDao.getAllEmployees();
+		
+		if( employees.isEmpty()) {
+			logger.trace("No employee is present in Database");
+		}
+		
 		for(Employee emp: employees) {
 			logger.trace(emp);
 		}
