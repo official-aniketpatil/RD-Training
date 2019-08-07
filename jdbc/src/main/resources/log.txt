@@ -1,0 +1,324 @@
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:52)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:52)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)connection established
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.main(JdbcExample.java:20)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)connection established
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.main(JdbcExample.java:20)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)connection established
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.main(JdbcExample.java:32)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)sql exception occured
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.createTable(JdbcExample.java:22)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)sql exception occured
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.createTable(JdbcExample.java:24)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)No database selected
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.createTable(JdbcExample.java:24)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)No database selected
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.createTable(JdbcExample.java:24)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)table : employeeis created
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.createTable(JdbcExample.java:21)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Table 'employee' already exists
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.createTable(JdbcExample.java:25)Table 'employee' already exists
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.createTable(JdbcExample.java:25)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)No database selected
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.add(EmployeeDao.java:40)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com,1)' at line 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.add(EmployeeDao.java:40)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.add(EmployeeDao.java:40)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Duplicate entry '1' for key 'PRIMARY'
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.add(EmployeeDao.java:44)You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from employee natural join address natural join departmentwhere id = 1' at line 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:116)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from employee natural join address natural join departmentwhere emp_id = 1' at line 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:116)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from employee natural join address natural join department where emp_id = 1' at line 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:116)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.add(EmployeeDao.java:44)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.add(EmployeeDao.java:44)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.add(EmployeeDao.java:46)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from employee join address join department where emp_id = 1' at line 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:118)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '')' at line 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.add(EmployeeDao.java:46)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from employee join address join department where emp_id = 1' at line 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:118)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'from employee join address join department where emp_id = 1' at line 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:123)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Before start of result set
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:122)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Before start of result set
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:122)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)SELECT employee.emp_id, employee.emp_name,employee.email,employee.email,department.dept_name,address.locality,address.city,address.state,address.state,address.landmark,address.zip from employee JOIN address JOIN department where employee.emp_id = 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:103)Before start of result set
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:124)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)SELECT employee.emp_id, employee.emp_name,employee.email,employee.email,department.dept_name,address.locality,address.city,address.state,address.state,address.landmark,address.zip from employee JOIN address JOIN department where employee.emp_id = 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:104)Before start of result set
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:126)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)SELECT employee.emp_id, employee.emp_name,employee.email,employee.email,department.dept_name,address.locality,address.city,address.state,address.state,address.landmark,address.zip from employee JOIN address JOIN department where employee.emp_id = 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:104)Column 'level' not found.
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:128)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)SELECT employee.emp_id, employee.emp_name,employee.email,employee.email,employee.leveldepartment.dept_name,address.locality,address.city,address.state,address.state,address.landmark,address.zip from employee JOIN address JOIN department where employee.emp_id = 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:105)Unknown column 'employee.leveldepartment.dept_name' in 'field list'
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:129)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)SELECT employee.emp_id, employee.emp_name,employee.email,employee.email,employee.level,department.dept_name,address.locality,address.city,address.state,address.state,address.landmark,address.zip from employee JOIN address JOIN department where employee.emp_id = 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:105)Employee [id=1, name=aniket, email=aniket_patil@epam.com, level=1, address=Address [locality=chikhali, city=shirala, state=maharashtra, landmark=home, zip=415408], department=java]
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showEmployeeDetails(JdbcExample.java:86)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)Enter Employee dedtails in sequence
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:35)* employee id
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:36)* name of employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:37)* level
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:38)* email
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:39)* Department
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:40)* locality
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:41)* city
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:42)* state
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:43)* landmark
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:44)* zip
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:45)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)SELECT employee.emp_id, employee.emp_name,employee.email,employee.email,employee.level,department.dept_name,address.locality,address.city,address.state,address.state,address.landmark,address.zip from employee JOIN address JOIN department where employee.emp_id = 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:105)SELECT employee.emp_id, employee.emp_name,employee.email,employee.email,employee.level,department.dept_name,address.locality,address.city,address.state,address.state,address.landmark,address.zip from employee JOIN address JOIN department where employee.emp_id = 2
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:105)Employee [id=1, name=aniket, email=aniket_patil@epam.com, level=1, address=Address [locality=vita, city=vita, state=maharashtra, landmark=home, zip=23242], department=javascript]
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showEmployeeDetails(JdbcExample.java:86)Employee [id=2, name=sahil, email=sahil@gmail.com, level=1, address=Address [locality=vita, city=vita, state=maharashtra, landmark=home, zip=23242], department=javascript]
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showEmployeeDetails(JdbcExample.java:86)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)Enter id of employee to edit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.helper(JdbcExample.java:100)SELECT employee.emp_id, employee.emp_name,employee.email,employee.email,employee.level,department.dept_name,address.locality,address.city,address.state,address.state,address.landmark,address.zip from employee JOIN address JOIN department where employee.emp_id = 2
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:113)existing employee is:Employee [id=2, name=sahil, email=sahil@gmail.com, level=1, address=Address [locality=vita, city=vita, state=maharashtra, landmark=home, zip=23242], department=javascript]
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.updateEmployee(JdbcExample.java:58)Enter Employee dedtails in sequence
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:35)* employee id
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:36)* name of employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:37)* level
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:38)* email
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:39)* Department
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:40)* locality
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:41)* city
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:42)* state
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:43)* landmark
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:44)* zip
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:45)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)Enter id of employee to edit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.helper(JdbcExample.java:100)SELECT employee.emp_id, employee.emp_name,employee.email,employee.email,employee.level,department.dept_name,address.locality,address.city,address.state,address.state,address.landmark,address.zip from employee JOIN address JOIN department where employee.emp_id = 2
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:113)existing employee is:Employee [id=2, name=sahil, email=sahil@gmail.com, level=1, address=Address [locality=vita, city=vita, state=maharashtra, landmark=home, zip=23242], department=javascript]
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.updateEmployee(JdbcExample.java:58)Enter Employee dedtails in sequence
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:35)* employee id
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:36)* name of employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:37)* level
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:38)* email
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:39)* Department
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:40)* locality
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:41)* city
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:42)* state
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:43)* landmark
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:44)* zip
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:45)You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'emp_id = 2' at line 1
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.update(EmployeeDao.java:84)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)connected to database
+com.epam.jdbc_example.DbConnection:com.epam.jdbc_example.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)Enter id of employee to edit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.helper(JdbcExample.java:100)SELECT employee.emp_id, employee.emp_name,employee.email,employee.email,employee.level,department.dept_name,address.locality,address.city,address.state,address.state,address.landmark,address.zip from employee JOIN address JOIN department where employee.emp_id = 2
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.get(EmployeeDao.java:113)existing employee is:Employee [id=2, name=sahil, email=sahil@gmail.com, level=1, address=Address [locality=vita, city=vita, state=maharashtra, landmark=home, zip=23242], department=javascript]
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.updateEmployee(JdbcExample.java:58)Enter Employee dedtails in sequence
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:35)* employee id
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:36)* name of employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:37)* level
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:38)* email
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:39)* Department
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:40)* locality
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:41)* city
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:42)* state
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:43)* landmark
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:44)* zip
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.showMenu(JdbcExample.java:45)Employee updated successfullyEmployee [id=2, name=sahil, email=sahil123@gmail.com, level=1, address=Address [locality=vita, city=vita, state=mh, landmark=home, zip=1234], department=javascript]
+com.epam.jdbc_example.EmployeeDao:com.epam.jdbc_example.EmployeeDao.update(EmployeeDao.java:81)Enter
+1) add new employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc_example.JdbcExample:com.epam.jdbc_example.JdbcExample.getChoice(JdbcExample.java:30)connected to database
+com.epam.jdbc.DbConnection:com.epam.jdbc.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:26)2) update existing employee
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:27)3) delete employee
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:28)4) show employee details
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:29)5) exit
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:30)connected to database
+com.epam.jdbc.DbConnection:com.epam.jdbc.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:27)2) update existing employee
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:28)3) delete employee
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:29)4) show employee details
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:30)5) exit
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:31)SELECT employee.emp_id, employee.emp_name,employee.email,employee.email,employee.level,department.dept_name,address.locality,address.city,address.state,address.state,address.landmark,address.zip from employee JOIN address JOIN department where employee.emp_id = 1
+com.epam.jdbc.EmployeeDaoImplementation:com.epam.jdbc.EmployeeDaoImplementation.get(EmployeeDaoImplementation.java:114)SELECT employee.emp_id, employee.emp_name,employee.email,employee.email,employee.level,department.dept_name,address.locality,address.city,address.state,address.state,address.landmark,address.zip from employee JOIN address JOIN department where employee.emp_id = 2
+com.epam.jdbc.EmployeeDaoImplementation:com.epam.jdbc.EmployeeDaoImplementation.get(EmployeeDaoImplementation.java:114)Employee [id=1, name=aniket, email=aniket_patil@epam.com, level=1, address=Address [locality=vita, city=vita, state=mh, landmark=home, zip=1234], department=javascript]
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.showEmployeeDetails(JdbcExample.java:87)Employee [id=2, name=sahil, email=sahil123@gmail.com, level=1, address=Address [locality=vita, city=vita, state=mh, landmark=home, zip=1234], department=javascript]
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.showEmployeeDetails(JdbcExample.java:87)Enter
+1) add new employee
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:27)2) update existing employee
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:28)3) delete employee
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:29)4) show employee details
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:30)5) exit
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:31)connected to database
+com.epam.jdbc.DbConnection:com.epam.jdbc.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:27)2) update existing employee
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:28)3) delete employee
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:29)4) show employee details
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:30)5) exit
+com.epam.jdbc.JdbcExample:com.epam.jdbc.JdbcExample.getChoice(JdbcExample.java:31)connected to database
+com.epam.jdbc.DbConnection:com.epam.jdbc.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:28)2) update existing employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:29)3) delete employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:30)4) show employee details
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:31)5) exit
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:32)connected to database
+com.epam.jdbc.DbConnection:com.epam.jdbc.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:24)2) update existing employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:25)3) delete employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:26)4) show employee details
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:27)5) exit
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:28)Enter Employee dedtails in sequence
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.showMenu(EmployeeService.java:33)* employee id
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.showMenu(EmployeeService.java:34)* name of employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.showMenu(EmployeeService.java:35)* level
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.showMenu(EmployeeService.java:36)* email
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.showMenu(EmployeeService.java:37)* Department
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.showMenu(EmployeeService.java:38)* locality
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.showMenu(EmployeeService.java:39)* city
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.showMenu(EmployeeService.java:40)* state
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.showMenu(EmployeeService.java:41)* landmark
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.showMenu(EmployeeService.java:42)* zip
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.showMenu(EmployeeService.java:43)Enter
+1) add new employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:24)2) update existing employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:25)3) delete employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:26)4) show employee details
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:27)5) exit
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:28)SELECT employee.emp_id, employee.emp_name,employee.email,employee.email,employee.level,department.dept_name,address.locality,address.city,address.state,address.state,address.landmark,address.zip from employee JOIN address JOIN department where employee.emp_id = 1
+com.epam.jdbc.dao.impl.EmployeeDaoImplementation:com.epam.jdbc.dao.impl.EmployeeDaoImplementation.getById(EmployeeDaoImplementation.java:113)Employee [id=1, name=aniket, email=aniket_patil@epam.com, level=1, address=Address [locality=chikhali, city=shirala, state=maharashtra, landmark=home, zip=415408], department=java]
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.showEmployeeDetails(EmployeeService.java:84)Enter
+1) add new employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:24)2) update existing employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:25)3) delete employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:26)4) show employee details
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:27)5) exit
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:28)connected to database
+com.epam.jdbc.DbConnection:com.epam.jdbc.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:24)2) update existing employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:25)3) delete employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:26)4) show employee details
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:27)5) exit
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:28)Enter id of employee to delete
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.helper(EmployeeService.java:102)Enter
+1) add new employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:24)2) update existing employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:25)3) delete employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:26)4) show employee details
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:27)5) exit
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:28)connected to database
+com.epam.jdbc.DbConnection:com.epam.jdbc.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:24)2) update existing employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:25)3) delete employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:26)4) show employee details
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:27)5) exit
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:28)Enter id of employee to delete
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.helper(EmployeeService.java:102)employee successfully removed
+com.epam.jdbc.dao.impl.EmployeeDaoImplementation:com.epam.jdbc.dao.impl.EmployeeDaoImplementation.remove(EmployeeDaoImplementation.java:58)Enter
+1) add new employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:24)2) update existing employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:25)3) delete employee
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:26)4) show employee details
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:27)5) exit
+com.epam.jdbc.EmployeeService:com.epam.jdbc.EmployeeService.getChoice(EmployeeService.java:28)
