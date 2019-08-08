@@ -23,7 +23,8 @@ public class EmployeeDaoImplementation implements EmployeeDao {
 	public EmployeeDaoImplementation() {
 		this.connection = new DbConnection().getDbConnection();
 	}
-
+	
+	@Override
 	public void add(Employee employee) {
 		try (Statement stmt = connection.createStatement();) {
 			Address address = employee.getAddress();
@@ -48,7 +49,8 @@ public class EmployeeDaoImplementation implements EmployeeDao {
 		}
 
 	}
-
+	
+	@Override
 	public void remove(int id) {
 
 		try (Statement stmt = connection.createStatement();) {
@@ -60,7 +62,8 @@ public class EmployeeDaoImplementation implements EmployeeDao {
 			logger.error(sqle.getMessage());
 		}
 	}
-
+	
+	@Override
 	public void update(Employee employee) {
 		
 		String empUpdateQuery  = "update employee set emp_name = '" + employee.getName() + "', email = '" + employee.getEmail()
@@ -86,8 +89,9 @@ public class EmployeeDaoImplementation implements EmployeeDao {
 			logger.error(sqle.getMessage());
 		}
 	}
-
-	public List<Employee> getAllEmployees() {
+	
+	@Override
+	public List<Employee> getAll() {
 		List<Employee> employees = new ArrayList<>();
 
 		try (Statement stmt = connection.createStatement();
@@ -100,6 +104,30 @@ public class EmployeeDaoImplementation implements EmployeeDao {
 			logger.error(sqle.getMessage());
 		}
 		return employees;
+	}
+	
+	@Override
+	public Employee getById(int id) {
+		Employee emp = null;
+		
+		String getEmployeeQuery = "SELECT employee.emp_id, employee.emp_name,"
+				+ "employee.email,employee.email,employee.level,"
+				+ "department.dept_name,address.locality,address.city,"
+				+ "address.state,address.state,address.landmark,"
+				+ "address.zip from employee JOIN address JOIN department "
+				+ "where employee.emp_id = " + id;
+			
+		try (Statement stmt = connection.createStatement();
+				ResultSet rs = stmt.executeQuery(getEmployeeQuery);) {
+			while(rs.next()) {
+				emp = employeeBuilder(id, rs);
+			}
+
+		} catch (SQLException sqle) {
+			logger.error(sqle.getMessage());
+			throw new RecordNotFoundException("Employee you are looking for is not present.");
+		}
+		return emp;
 	}
 	
 	private Employee employeeBuilder(int id, ResultSet rs) throws SQLException {
@@ -124,27 +152,5 @@ public class EmployeeDaoImplementation implements EmployeeDao {
 		return emp;
 	}
 	
-	public Employee getById(int id) {
-		Employee emp = null;
-		
-		String getEmployeeQuery = "SELECT employee.emp_id, employee.emp_name,"
-				+ "employee.email,employee.email,employee.level,"
-				+ "department.dept_name,address.locality,address.city,"
-				+ "address.state,address.state,address.landmark,"
-				+ "address.zip from employee JOIN address JOIN department "
-				+ "where employee.emp_id = " + id;
-			
-		try (Statement stmt = connection.createStatement();
-				ResultSet rs = stmt.executeQuery(getEmployeeQuery);) {
-			while(rs.next()) {
-				emp = employeeBuilder(id, rs);
-			}
-
-		} catch (SQLException sqle) {
-			logger.error(sqle.getMessage());
-			throw new RecordNotFoundException("Employee you are looking for is not present.");
-		}
-		return emp;
-	}
 
 }

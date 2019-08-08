@@ -79,7 +79,7 @@ public class EmployeeService {
 	}
 	
 	public void showEmployeeDetails() {
-		List<Employee> employees = employeeDao.getAllEmployees();
+		List<Employee> employees = employeeDao.getAll();
 		
 		if( employees.isEmpty()) {
 			logger.trace("No employee is present in Database");

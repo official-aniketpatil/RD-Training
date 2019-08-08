@@ -395,4 +395,11 @@ com.epam.jdbc.launcher.EmployeeService:com.epam.jdbc.launcher.EmployeeService.ge
 com.epam.jdbc.launcher.EmployeeService:com.epam.jdbc.launcher.EmployeeService.getChoice(EmployeeService.java:27)3) delete employee
 com.epam.jdbc.launcher.EmployeeService:com.epam.jdbc.launcher.EmployeeService.getChoice(EmployeeService.java:28)4) show employee details
 com.epam.jdbc.launcher.EmployeeService:com.epam.jdbc.launcher.EmployeeService.getChoice(EmployeeService.java:29)5) exit
-com.epam.jdbc.launcher.EmployeeService:com.epam.jdbc.launcher.EmployeeService.getChoice(EmployeeService.java:30)
+com.epam.jdbc.launcher.EmployeeService:com.epam.jdbc.launcher.EmployeeService.getChoice(EmployeeService.java:30)connected to database
+com.epam.jdbc.launcher.DbConnection:com.epam.jdbc.launcher.DbConnection.getDbConnection(DbConnection.java:54)Enter
+1) add new employee
+com.epam.jdbc.launcher.EmployeeService:com.epam.jdbc.launcher.EmployeeService.getChoice(EmployeeService.java:24)2) update existing employee
+com.epam.jdbc.launcher.EmployeeService:com.epam.jdbc.launcher.EmployeeService.getChoice(EmployeeService.java:25)3) delete employee
+com.epam.jdbc.launcher.EmployeeService:com.epam.jdbc.launcher.EmployeeService.getChoice(EmployeeService.java:26)4) show employee details
+com.epam.jdbc.launcher.EmployeeService:com.epam.jdbc.launcher.EmployeeService.getChoice(EmployeeService.java:27)5) exit
+com.epam.jdbc.launcher.EmployeeService:com.epam.jdbc.launcher.EmployeeService.getChoice(EmployeeService.java:28)
