@@ -17,16 +17,12 @@ import com.epam.jdbc.model.Address;
 import com.epam.jdbc.model.Employee;
 
 public class EmployeeDaoImplementation implements EmployeeDao {
-	private Connection connection;
 	private static final Logger logger = LogManager.getLogger(EmployeeDaoImplementation.class);
 
-	public EmployeeDaoImplementation() {
-		this.connection = new DbConnection().getDbConnection();
-	}
-	
 	@Override
 	public void add(Employee employee) {
-		try (Statement stmt = connection.createStatement();) {
+		try ( Connection connection = new DbConnection().getDbConnection();
+				Statement stmt = connection.createStatement();) {
 			Address address = employee.getAddress();
 			String empInsertionQuery = "insert into employee(emp_id, emp_name, email, level) " + "values("
 					+ employee.getId() + ",'" + employee.getName() + "','" + employee.getEmail() + "',"
@@ -53,7 +49,8 @@ public class EmployeeDaoImplementation implements EmployeeDao {
 	@Override
 	public void remove(int id) {
 
-		try (Statement stmt = connection.createStatement();) {
+		try (Connection connection = new DbConnection().getDbConnection();
+				Statement stmt = connection.createStatement();) {
 			stmt.execute("delete from employee where emp_id = " + id);
 			stmt.execute("delete from department where emp_id = " + id);
 			stmt.execute("delete from address where emp_id = " + id);
@@ -76,7 +73,8 @@ public class EmployeeDaoImplementation implements EmployeeDao {
 				+ employee.getAddress().getLocality() + "', state = '" + employee.getAddress().getState() + "', zip = "
 				+ employee.getAddress().getZip()+", landmark = '"+ employee.getAddress().getLandmark() + "' where emp_id = " + employee.getId();
 		
-		try (Statement stmt = connection.createStatement();) {
+		try (Connection connection = new DbConnection().getDbConnection();
+				Statement stmt = connection.createStatement();) {
 			stmt.execute(empUpdateQuery);
 
 			stmt.execute(deptUpdateQuery);
@@ -94,7 +92,8 @@ public class EmployeeDaoImplementation implements EmployeeDao {
 	public List<Employee> getAll() {
 		List<Employee> employees = new ArrayList<>();
 
-		try (Statement stmt = connection.createStatement();
+		try (	Connection connection = new DbConnection().getDbConnection();
+				Statement stmt = connection.createStatement();
 				ResultSet rs = stmt.executeQuery("select emp_id from employee")) {
 			while (rs.next()) {
 				Employee emp = getById(rs.getInt("emp_id"));
@@ -117,7 +116,8 @@ public class EmployeeDaoImplementation implements EmployeeDao {
 				+ "address.zip from employee JOIN address JOIN department "
 				+ "where employee.emp_id = " + id;
 			
-		try (Statement stmt = connection.createStatement();
+		try (Connection connection = new DbConnection().getDbConnection();
+				Statement stmt = connection.createStatement();
 				ResultSet rs = stmt.executeQuery(getEmployeeQuery);) {
 			while(rs.next()) {
 				emp = employeeBuilder(id, rs);
