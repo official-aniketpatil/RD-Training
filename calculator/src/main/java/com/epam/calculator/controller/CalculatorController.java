@@ -19,9 +19,19 @@ public class CalculatorController extends HttpServlet {
 
 	@Override
 	public void doGet(HttpServletRequest request, HttpServletResponse response) {
-		String queryString = request.getQueryString();
-		CalculatorService calculatorService = new CalculatorService(queryString);
+		double firstNumber = 0.0;
+		double secondNumber = 0.0;
+		try {
+			firstNumber = Double.parseDouble(request.getParameter("fNum"));
+			secondNumber = Double.parseDouble(request.getParameter("sNum"));
+		} catch (NumberFormatException ex) {
+			logger.error(ex.getMessage());
+		}
+		String operator = request.getParameter("operator");
+		logger.trace(operator);
+		CalculatorService calculatorService = new CalculatorService(firstNumber, secondNumber, operator);
 		double result = calculatorService.computeResult();
+
 		try {
 			response.getWriter().append("result is: " + result);
 			logger.trace("result is:" + result);
